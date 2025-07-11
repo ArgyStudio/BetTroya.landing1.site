@@ -552,24 +552,15 @@ input[type="text"]:-ms-input-placeholder {
 
 
 /*logo*/
-.logo {
+.logo-img {
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  overflow: hidden;
-  padding: 4px;        /* espacio para el drop-shadow */
-  background: #000;    /* coincida con tu fondo */
-}
-.logo img {
+  border: 4px solid white;
   display: block;
   margin: 0 auto;
-  width: calc(160px - 8px); /* restamos doble padding */
-  height: auto;
-  border-radius: 50%;
-  filter:
-    drop-shadow( 2px  0   0 white)
-    drop-shadow(-2px  0   0 white)
-    drop-shadow( 0    2px 0 white)
-    drop-shadow( 0   -2px 0 white);
 }
+
 
 #overlayImage {
   position: fixed;
